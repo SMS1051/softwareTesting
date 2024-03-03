@@ -1,0 +1,203 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To creat new account in fb application",
+        "description": "",
+        "id": "to-validate-the-creat-account-in-facebook-application;to-creat-new-account-in-fb-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11827776300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the browser and maximize the window",
+            "match": {
+              "location": "testPro.to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11683345900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch url in facebook application",
+            "match": {
+              "location": "testPro.to_launch_url_in_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2868379400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To click the creat new account button",
+            "match": {
+              "location": "testPro.to_click_the_creat_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5741206700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass the firstname in the firstname text box",
+            "match": {
+              "location": "testPro.to_pass_the_firstname_in_the_firstname_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "shameem",
+                  "Prasath",
+                  "mathi",
+                  "RK Bulders Rakkamma",
+                  "Riyas sir"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3513678700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To pass the secondname in secondname text box",
+            "match": {
+              "location": "testPro.to_pass_the_secondname_in_secondname_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Salahudeen",
+                  "7845596373",
+                  "Ring"
+                ]
+              },
+              {
+                "cells": [
+                  "Selenium",
+                  "Inmakes",
+                  "Makes"
+                ]
+              },
+              {
+                "cells": [
+                  "Cucumber",
+                  "Snake sneha",
+                  "Free"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3728732900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass the email or mobileno in emil text box",
+            "match": {
+              "location": "testPro.to_pass_the_email_or_mobileno_in_emil_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "mail1",
+                  "Nisandhini@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "mail2",
+                  "Muslimgirl1345@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "mail3",
+                  "Prasath1345@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3430256900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To pass the password in new password text box",
+            "match": {
+              "location": "testPro.to_pass_the_password_in_new_password_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Password1",
+                  "Password2",
+                  "Password3"
+                ]
+              },
+              {
+                "cells": [
+                  "Rakesh111",
+                  "Mathi666",
+                  "007999"
+                ]
+              },
+              {
+                "cells": [
+                  "sala9080",
+                  "Rakesh111",
+                  "Rake999"
+                ]
+              },
+              {
+                "cells": [
+                  "kattakunju",
+                  "Itemrakesh",
+                  "Kenapundaprasanth"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1235617000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "To close the browser",
+            "match": {
+              "location": "testPro.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the creat account in facebook application",
+    "description": "",
+    "id": "to-validate-the-creat-account-in-facebook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/rock.feature",
+    "tags": []
+  }
+]
